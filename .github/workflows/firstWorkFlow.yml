@@ -15,7 +15,7 @@ jobs:
         shell: bash
         run: echo Hello World! This is the first job 
       - name: checkout the repository
-        uses: aactions/checkout@v4.1.1
+        uses: actions/checkout@v4.1.1
       - name: greetings
         id: greetings
         uses: actions/hello-world-javascript-action@main 
